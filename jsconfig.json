@@ -1,4 +1,5 @@
 {
+  "css.lint.unknownAtRules": "ignore",
   "compilerOptions": {
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
@@ -20,9 +21,9 @@
       }
     ],
     "paths": {
-      "@/*": ["./*"]
+      "@*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/layout.jsx"],
   "exclude": ["node_modules"]
 }
